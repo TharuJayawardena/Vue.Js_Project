@@ -2,19 +2,16 @@
   <div>
 
     <app-nav></app-nav>
-    <app-home></app-home>
+    <router-view></router-view>
 
   </div>
 </template>
 
 <script>
 
-import Home from './components/Home'
+
 export default {
 
-   components: {
-     'app-home': Home
-   }
 
 }
 </script>
